@@ -1,0 +1,56 @@
+#boxes,
+#controls {
+    background-color: #F6F6FE;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+#controls {
+    margin-bottom: 16px;
+}
+
+#controls input {
+    height: 40px;
+    width: 150px;
+    padding-left: 70px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+    background-color: transparent;
+}
+
+#controls input:hover {
+    border: 1px solid #000;
+}
+
+#controls button {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+button[data-create] {
+    background-color: #4E75FF;
+}
+
+button[data-destroy] {
+    background-color: #FF4E4E;
+}
+
+button[data-create]:hover {
+    background-color: #6C8CFF;
+}
+
+button[data-destroy]:hover {
+    background-color: #FF7070;
+}

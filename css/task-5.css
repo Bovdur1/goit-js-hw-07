@@ -1,0 +1,33 @@
+.widget {
+    margin-top: 100px;
+}
+
+.widget p {
+    text-align: center;
+    color: #2E2F42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+.widget button {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: #4E75FF;
+    padding: 8px 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+.widget button:hover {
+    background-color: #6C8CFF;
+}
